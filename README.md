@@ -21,7 +21,7 @@ organizational policy.</td>
 </tr>
 <tr>
 <td>3.environments</td>
-<td> non-production, and production environments within the
+<td> development,ataging and production environments within the
 Google Cloud organization that you've created.</td>
 </tr>
 <tr>
@@ -42,8 +42,7 @@ Private Service networking, serverless vpc connector, and baseline firewall rule
 
 ## Purpose
 
-The purpose of this step is to set up the folder structure, projects for applications that are connected as service projects to the shared VPC created in the previous stage for each customer.
-For each business unit, a shared `app` project is created and Google Cloud Storage buckets for state storage.
+The purpose of this step is to set up the projects for applications that are connected as service projects to the shared VPC created in the previous stage for each customer.
 
 
 ## Prerequisites
